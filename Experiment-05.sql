@@ -111,7 +111,7 @@ insert into customers(ID,Name,PhoneNo) values (3,'Suresh', 1234567892)
 select * from customers 
 /*
 ID	NAME	  DOB	GENDER	PHONENO	    COUNTRY
-3	 Suresh	 - 	 - 	    1234567892	India
+3	Suresh	   - 	 - 	    1234567892	 India
 */
 
 
@@ -160,10 +160,10 @@ insert into payment(bill,p_id) values (1121,2)
 
 select * from customers order by ID 
 /*
-ID	NAME	DOB	GENDER	PHONENO	COUNTRY
-1	Ramesh	 - 	 - 	1234567890	India
-2	Rakesh	 - 	 - 	1234567892	India
-3	Suresh	 - 	 - 	1234567892	India
+ID	NAME	DOB	GENDER	PHONENO	   COUNTRY
+1	Ramesh	 - 	 - 	   1234567890	India
+2	Rakesh	 - 	 - 	   1234567892	India
+3	Suresh	 - 	 - 	   1234567892	India
 */
 
 select * from payment 
