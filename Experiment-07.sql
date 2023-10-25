@@ -56,12 +56,12 @@ SELECT * FROM CUS_DUPP1 ORDER BY ID
 ID	NAME	    DOB GENDER	  PHONE	      MAIL
 1	 Ramesh	     - 	  - 	  1234567890	rm11@gmail.com
 2	 Rakesh	     - 	  - 	  1234567891	rk22@gmail.com
-3	 Sarvesh	 - 	  - 	  1234567892	srv33@gmail.com
+3	 Sarvesh	  - 	  - 	  1234567892	srv33@gmail.com
 4	 Suresh	     - 	  - 	  1234567893	sur44@gmail.com
 4	 Karan	     - 	  - 	  1234567894	ks55@gmail.com
 5	 Run	     - 	  - 	  1234567895	rn66@gmail.com
-6	 Saksham	 - 	  - 	  1234567896	sk77@gmail.com
-7	 Santosh	 - 	  - 	  1234567897	st88@gmail.com
+6	 Saksham	  - 	  - 	  1234567896	sk77@gmail.com
+7	 Santosh	  - 	  - 	  1234567897	st88@gmail.com
 8	 Thomas     - 	  - 	  1234567898	ts99@gmail.com
 9 rows selected.
 */
@@ -75,6 +75,6 @@ ID	NAME	  DOB	GENDER	  PHONE	      MAIL
 2	  Rakesh	 - 	  - 	  1234567891	rk22@gmail.com
 3	  Sarvesh	 - 	  - 	  1234567892	srv33@gmail.com
 4	  Suresh	 - 	  - 	  1234567893	sur44@gmail.com
-4	  Karan	     - 	  - 	  1234567894	ks55@gmail.com
+4	  Karan       - 	  - 	  1234567894	ks55@gmail.com
 5 rows selected.
 */
