@@ -29,7 +29,7 @@ select * from customer where Name like't%'
 select * from customer where Name like'T%' 
 /*
 ID	NAME	  DOB	GENDER	PHONENO	    MAIL
-9	  Thomas	 - 	 - 	    1234567898	tj99@gmail.com
+9	 Thomas	   - 	     - 	 1234567898	tj99@gmail.com
 */
 
 select LPAD ('Parma',10,'$') from DUAL
