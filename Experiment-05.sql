@@ -22,7 +22,7 @@ More Details: https://docs.oracle.com/error-help/db/ora-00001
 select * from customers 
 /*
 ID	NAME	  DOB	GENDER	PHONENO	    MAIL
-1	  karan	 - 	 - 	    1234567890	ks@gmail.com
+1	karan	  - 	 - 	    1234567890	ks@gmail.com
 */
 
 
