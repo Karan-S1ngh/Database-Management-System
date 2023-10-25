@@ -22,11 +22,11 @@ insert into customer(ID,Name,PhoneNo,mail) values (09,'Thomas','1234567898','ts9
 select * from customer where ID IN (SELECT ID FROM CUSTOMER WHERE ID>5) ORDER BY ID
 /*
 select * from customer where ID IN (SELECT ID FROM CUSTOMER WHERE ID>5) ORDER BY ID
-ID	NAME	  DOB	GENDER	PHONENO	    MAIL
-6	  Run	     - 	 - 	    1234567895	rn66@gmail.com
-7	  Saksham	 - 	 - 	    1234567896	sk77@gmail.com
-8	  Santosh	 - 	 -      1234567897	st88@gmail.com
-9	  Thomas     - 	 - 	    1234567898	ts99@gmail.com
+ID	NAME	     DOB	GENDER	PHONENO	    MAIL
+6	 Run	     - 	     - 	    1234567895	rn66@gmail.com
+7	 Saksham	 - 	     - 	    1234567896	sk77@gmail.com
+8    Santosh	 - 	     -      1234567897	st88@gmail.com
+9    Thomas      - 	     - 	    1234567898	ts99@gmail.com
 4 rows selected
 */
      
