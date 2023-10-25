@@ -20,7 +20,7 @@ insert into customer(ID,Name,PhoneNo,mail) values (09,'Thomas','1234567898','ts9
 select * from customer where Name like'K____' 
 /*
 ID	NAME	DOB	GENDER	PHONENO	    MAIL
-5	  Karan	 - 	 - 	    1234567894	ks55@gmail.com
+5	Karan	 - 	 - 	    1234567894	ks55@gmail.com
 */
 
 select * from customer where Name like't%' 
@@ -29,7 +29,7 @@ select * from customer where Name like't%'
 select * from customer where Name like'T%' 
 /*
 ID	NAME	  DOB	GENDER	PHONENO	    MAIL
-9	 Thomas	   - 	     - 	 1234567898	tj99@gmail.com
+9	 Thomas	   - 	  - 	1234567898	tj99@gmail.com
 */
 
 select LPAD ('Parma',10,'$') from DUAL
@@ -117,6 +117,6 @@ COUNT(ID)	NAME
 1	        Run	     
 1	        Saksham	 
 1	        Santosh	
-1         Thomas 
+1           Thomas 
 9 rows selected.
 */
