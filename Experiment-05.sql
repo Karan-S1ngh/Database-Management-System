@@ -51,7 +51,7 @@ insert into customer(ID,Name,PhoneNo) values (1,'karan',1234567890)
 select * from customers 
 /*
 ID	NAME	  DOB	GENDER	PHONENO	  
-1	  karan	   - 	   -    1234567890	
+1	karan	   - 	   -    1234567890	
 */
 
 
@@ -81,7 +81,7 @@ insert into customers(ID,Name,PhoneNo) values (1,'Ramesh','1234567890')
 select * from customers 
 /*
 ID	NAME	  DOB	GENDER	PHONENO	    COUNTRY
-1	  Ramesh	 - 	 - 	    1234567890	India
+1	Ramesh	   - 	 - 	    1234567890	India
 */
 
 
@@ -111,7 +111,7 @@ insert into customers(ID,Name,PhoneNo) values (3,'Suresh', 1234567892)
 select * from customers 
 /*
 ID	NAME	  DOB	GENDER	PHONENO	    COUNTRY
-3	  Suresh	 - 	 - 	    1234567892	India
+3	 Suresh	 - 	 - 	    1234567892	India
 */
 
 
