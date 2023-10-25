@@ -27,6 +27,7 @@ ID	NAME	  DOB	GENDER	PHONENO	    MAIL
 7	  Saksham	 - 	 - 	    1234567896	sk77@gmail.com
 8	  Santosh	 - 	 -      1234567897	st88@gmail.com
 9	  Thomas   - 	 - 	    1234567898	ts99@gmail.com
+4 rows selected
 */
      
 CREATE TABLE CUS_DUPP1(ID VARCHAR(9),NAME VARCHAR(20),DOB DATE,GENDER VARCHAR(9),PHONE NUMBER(10),MAIL VARCHAR(18)) 
