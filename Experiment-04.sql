@@ -13,11 +13,11 @@ desc customer
 /*TABLE CUSTOMER
 Column	Null?	   Type
 ID	      - 	VARCHAR2(9)
-NAME	    - 	VARCHAR2(20)
+NAME	  - 	VARCHAR2(20)
 DOB	      - 	NUMBER(8,0)
 GENDER	  - 	VARCHAR2(9)
 PHONENO	  - 	NUMBER(10,0)
-MAIL	    - 	VARCHAR2(18)
+MAIL	  - 	VARCHAR2(18)
 */
 
 alter table customer ADD address varchar(30) 
@@ -27,11 +27,11 @@ desc customer
 /*TABLE CUSTOMER
 Column	Null?	   Type
 ID	      - 	VARCHAR2(9)
-NAME	    - 	VARCHAR2(20)
+NAME	  - 	VARCHAR2(20)
 DOB	      - 	NUMBER(8,0)
 GENDER	  - 	VARCHAR2(9)
 PHONENO	  - 	NUMBER(10,0)
-MAIL	    - 	VARCHAR2(18)
+MAIL	  - 	VARCHAR2(18)
 ADDRESS	  - 	VARCHAR2(30)
 */
 
@@ -53,8 +53,8 @@ insert into customer Values('two','run',2262005,'Male',12045,'trfjp@gmail.com')
 select * from customer 
 /*
 ID	NAME	DOB	   GENDER	 PHONENO	MAIL
-One	ran	 272006	  Male	 12345	  tp@gmail.com
-two	run	 2262005	Male	 12045	  trfjp@gmail.com
+One	ran	  272006	Male	 12345	  tp@gmail.com
+two	run	  2262005	Male	 12045	  trfjp@gmail.com
 */
 
 update customer set Name='karan' where ID='One'
@@ -63,8 +63,8 @@ update customer set Name='karan' where ID='One'
 select * from customer 
 /*
 ID	NAME	DOB	     GENDER	 PHONENO	MAIL
-One	karan	272006	 Male	   12345	  tp@gmail.com
-two	run	  2262005	 Male	   12045	  trfjp@gmail.com
+One	karan  272006	 Male	   12345	tp@gmail.com
+two	run	  2262005	 Male	   12045    trfjp@gmail.com
 */
 
 select Name from customer
@@ -100,8 +100,9 @@ Two
 select * from CUSTOMER where ID='One' OR ID='Two'
 /*
 ID	NAME	DOB	     GENDER	 PHONENO	MAIL
-One	karan	272006	 Male	   12345	  tp@gmail.com
-two	run	  2262005	 Male	   12045	  trfjp@gmail.com
+One	karan  272006	 Male	   12345    tp@gmail.com
+two	run	  2262005	 Male	   12045    trfjp@gmail.com
+2 rows selected
 */
 
 delete from customer
