@@ -1,1 +1,1 @@
-# Database-Management-System
+# DBMS Practical Codes
