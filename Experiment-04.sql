@@ -84,7 +84,7 @@ PHONENO
 12045
 */
 
-select * from customer where Phoneno IN (12345); 
+select * from customer where Phoneno IN 12345; 
 /*
 ID	NAME	DOB	    GENDER	PHONENO	 MAIL
 One	karan	272006	Male	  12345	   tp@gmail.com
