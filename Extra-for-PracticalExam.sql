@@ -1,3 +1,27 @@
+/*
+Create DEPARTMENT Table with columns Department_Id,
+Name,Location_ID. Constraints on DEPARTMENT table, Department_Id
+Primary Key,Location_Id references LOCATION table.
+*/
+create table LOCATION  
+( 
+    Location_Id varchar2(10) primary key, 
+    Location_name varchar2(15) 
+)
+create table DEPARTMENT 
+( 
+    Department_Id number(5) primary key, 
+    Name varchar2(10), 
+    Location_Id varchar2(10) references LOCATION(Location_Id) 
+)
+
+
+
+
+
+/*
+TABLE QUESTION
+*/
 create table EMPLOYEE 
 (
     EMPLOYEE_ID number(4) primary key,
