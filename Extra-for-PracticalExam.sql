@@ -19,6 +19,7 @@ insert into EMPLOYEE values(7506,'DENNIS','LYNN','S',671,7839,'15-MAY-1985',2750
 insert into EMPLOYEE values(7507,'BAKER','LESLIE','D',671,7839,'10-JUN-1985',2200,NULL,40);
 insert into EMPLOYEE values(7521,'WARK','CYNTHIA','D',670,7698,'22-FEB-1985',1250,500,30);
 
+
 /*1ST QUESTION*/
 select * from EMPLOYEE; 
 /* List all job details.*/
