@@ -10,10 +10,10 @@ create table customers
 )
 /*Table created. */
 
-insert into customer(ID,Name,PhoneNo,mail) values (1,'karan',1234567890,'ks@gmail.com')
+insert into customers(ID,Name,PhoneNo,mail) values (1,'karan',1234567890,'ks@gmail.com')
 /*1 row(s) inserted. */
 
-insert into customer(ID,Name,PhoneNo,mail) values (1,'ran',1244567890,'kr@gmail.com')
+insert into customers(ID,Name,PhoneNo,mail) values (1,'ran',1244567890,'kr@gmail.com')
 /*
 ORA-00001: unique constraint (SQL_MIKHVAAHPHRMOSWCAKQRDZTPQ.SYS_C00130275927) violated ORA-06512: at "SYS.DBMS_SQL", line 1721
 More Details: https://docs.oracle.com/error-help/db/ora-00001
@@ -45,7 +45,7 @@ ORA-01400: cannot insert NULL into ("SQL_NXQXXAOXSHOVMNJNCAPEIAWEK"."CUSTOMERS".
 More Details: https://docs.oracle.com/error-help/db/ora-01400
 */
 
-insert into customer(ID,Name,PhoneNo) values (1,'karan',1234567890)
+insert into customers(ID,Name,PhoneNo) values (1,'karan',1234567890)
 /*1 row(s) inserted. */
 
 select * from customers 
