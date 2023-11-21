@@ -87,4 +87,4 @@ where FIRST_NAME like 'S%';
 
 /*List out the employees whose name length is 4 and start with “S” */
 select * from EMPLOYEE 
-where FIRST_NAME like 'J___';
+where FIRST_NAME like 'S___';
