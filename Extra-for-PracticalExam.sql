@@ -50,24 +50,24 @@ select * from EMPLOYEE;
 select JOB_ID, MANAGER_ID, DEPARTMENT_ID 
 from EMPLOYEE
 
-/List out the employee id, name in descending order based on salary/
+/* List out the employee id, name in descending order based on salary */
 select EMPLOYEE_ID, LAST_NAME, FIRST_NAME, SALARY
 from EMPLOYEE 
 order by SALARY DESC;
 
 
 /*2ND QUESTION*/
-/* List out first name,last_name,salary, commission for all employees. */
+/*List out first name,last_name,salary, commission for all employees.*/
 select FIRST_NAME, LAST_NAME, SALARY, COMM
 from EMPLOYEE
     
-/*. List out the employee’s annual salary with their names only.*/
+/*List out the employee’s annual salary with their names only.*/
 select FIRST_NAME, SALARY*12 as ANNUAL_SALARY
 from EMPLOYEE
 
 
 /*3RD QUESTION*/
-/*List out the employees who are working in department 20. */
+/*List out the employees who are working in department 20.*/
 select * from EMPLOYEE
 where DEPARTMENT_ID=20;
 
